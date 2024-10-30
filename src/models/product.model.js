@@ -15,8 +15,6 @@ const UserSchema = mongoose.Schema({
     stock: Number
 
 
-
-
 });
 
 module.exports = mongoose.model('Product', UserSchema);
